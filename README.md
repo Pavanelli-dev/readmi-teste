@@ -90,6 +90,11 @@ tela logada:
 
 
 
+## 👀Funcionlidades e como testalas
+
+
+
+
 
 
 
