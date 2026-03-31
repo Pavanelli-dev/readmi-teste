@@ -42,7 +42,7 @@ A aplicação permite:
 1. Clone o repositório(git clone)
 2. verificar se a ordem das pasta está correta
 pastas:
-<img width="250" height="557" alt="Captura de tela 2026-03-17 133741" src="<img width="250" height="557" alt="unnamed" src="https://github.com/user-attachments/assets/eda25d01-9753-41c5-b619-14fd47750419" />
+https://github.com/user-attachments/assets/eda25d01-9753-41c5-b619-14fd47750419
 " />
 
 3. npm install express
