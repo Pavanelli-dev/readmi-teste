@@ -42,8 +42,8 @@ A aplicação permite:
 1. Clone o repositório(git clone)
 2. verificar se a ordem das pasta está correta
 pastas:
-https://github.com/user-attachments/assets/eda25d01-9753-41c5-b619-14fd47750419
-" />
+<img width="250" height="557" alt="unnamed" src="https://github.com/user-attachments/assets/85606aeb-a6c4-48f3-9ac6-a5e9e0a43594" />
+
 
 3. npm install express
    npm install sql.js
@@ -59,8 +59,9 @@ https://github.com/user-attachments/assets/eda25d01-9753-41c5-b619-14fd47750419
 6. Acesse http://localhost:3001 no navegador.
 
 tela de login:
+<img width="1919" height="943" alt="unnamed" src="https://github.com/user-attachments/assets/40dcb08d-5973-4b0f-bd5b-be6d83685001" />
 
-<img width="30" height="120" alt="Captura de tela 2026-03-17 133741" src="./images/unnamed.png" />
+
 
 
 
