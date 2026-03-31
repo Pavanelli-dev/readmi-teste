@@ -78,15 +78,15 @@ tela logada:
 <img width="250" height="557" alt="unnamed" src="https://github.com/user-attachments/assets/85606aeb-a6c4-48f3-9ac6-a5e9e0a43594" />
 
 
-/public → Frontend (HTML, CSS, JS) 
-/src /database → Conexão com o banco (SQLite)
-/routes → Definição das rotas da API 
-/middleware → Middlewares (ex: conexão com banco) 
-/models → Entidades e regras de negócio 
-index.js → Arquivo principal do servidor
-.env → Variáveis de ambiente
-pizzaria.db → Banco de dados 
-SQLite seed.js → Popula o banco com dados iniciais
+- /public → Frontend (HTML, CSS, JS) 
+- /src /database → Conexão com o banco (SQLite)
+- /routes → Definição das rotas da API 
+-  /middleware → Middlewares (ex: conexão com banco) 
+- /models → Entidades e regras de negócio 
+- index.js → Arquivo principal do servidor
+- .env → Variáveis de ambiente
+- pizzaria.db → Banco de dados 
+- SQLite seed.js → Popula o banco com dados iniciais
 
 
 
