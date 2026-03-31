@@ -75,30 +75,7 @@ tela logada:
 
 ## 📁Estrutura de pastas
 
-/.vscode
-/node_modules
-/public
-├── index.html
-├── script.js
-└── style.css
-/src
-├── database/
-│    └── sqlite.js
-├── routes/
-│    └── index.js
-├── middleware/
-│    └── sqlite.js
-└── models/
-├── Cliente.js
-├── Pedido.js
-├── Pizza.js
-└── Usuario.js
-.env
-index.js
-package-lock.json
-package.json
-pizzaria.db
-seed.js
+<img width="250" height="557" alt="unnamed" src="https://github.com/user-attachments/assets/85606aeb-a6c4-48f3-9ac6-a5e9e0a43594" />
 
 
 /public → Frontend (HTML, CSS, JS) 
