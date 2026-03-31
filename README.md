@@ -7,14 +7,21 @@
 
 
 ## 📖 Descrição do Projeto
-Este projeto consiste no desenvolvimento de uma aplicação fullstack que consome uma API de diferentes tipos de pokemon. 
+Este projeto consiste no desenvolvimento de uma aplicação fullstack de uma pizzaria que cria e consulta o proprio banco de dados e API para a anotação e confirmação de pedidos dessa pizzaria além de ter uma aba propria para o garçom, atendente e adm. 
 
-O backend foi desenvolvido para fornecer dados através de endpoints REST, enquanto o frontend consome esses dados e apresenta uma interface amigável ao usuário.
+Garçom- É capaz de anotar os pedidos e visualizar suar respectivas mesas🍷
+
+Atendente - Controle de gastos e acompanhamento dos pedidos💰
+
+ADM - Controle de gastos e senhas dos funcionarios💻
+
+
 
 A aplicação permite:
-- pesquisar o pokemon pelo tipo
-- trocar a imagem clicando no personagem
-- trocar imagem clicando em aleatorio
+- realizar pedidos 
+- Guardar esses pedidos em um banco de dados proprio
+- calcular o faturamento
+- mostrar o numero de: Clientes & Pizzas
 
 ## 💻 Tecnologias Utilizadas
 
@@ -27,7 +34,7 @@ A aplicação permite:
 - cors
 - dotenv
 
-grande parte dessas tecnologias são bibliotecas ou frameworks que ajudam nas funcionalidades e segurança do site
+#grande parte dessas tecnologias são bibliotecas ou frameworks que ajudam nas funcionalidades e segurança do site
   
 
 ### Frontend
@@ -46,22 +53,63 @@ pastas:
 
 
 3. npm install express
-   npm install sql.js
-   npm install jsonwebtoken
-   npm install bcryptjs
-   npm install cors
-   npm install dotenv
+4. npm install sql.js
+5. npm install jsonwebtoken
+6. npm install bcryptjs
+7. npm install cors
+8. npm install dotenv
 
-4. popular o banco de dados com o comando (node seed.js)
+9. popular o banco de dados com o comando (node seed.js)
 
-5. iniciar o servidor (node index.js)
+10. iniciar o servidor (node index.js)
 
-6. Acesse http://localhost:3001 no navegador.
+11. Acesse http://localhost:3001 no navegador.
 
 tela de login:
 <img width="1919" height="943" alt="unnamed" src="https://github.com/user-attachments/assets/40dcb08d-5973-4b0f-bd5b-be6d83685001" />
 
 
+tela logada:
+<img width="1919" height="935" alt="unnamed" src="https://github.com/user-attachments/assets/cd8049e8-907e-4055-bc77-2887b5bf1dfc" />
+
+
+## 📁Estrutura de pastas
+
+/.vscode
+/node_modules
+/public
+├── index.html
+├── script.js
+└── style.css
+/src
+├── database/
+│    └── sqlite.js
+├── routes/
+│    └── index.js
+├── middleware/
+│    └── sqlite.js
+└── models/
+├── Cliente.js
+├── Pedido.js
+├── Pizza.js
+└── Usuario.js
+.env
+index.js
+package-lock.json
+package.json
+pizzaria.db
+seed.js
+
+
+/public → Frontend (HTML, CSS, JS) 
+/src /database → Conexão com o banco (SQLite)
+/routes → Definição das rotas da API 
+/middleware → Middlewares (ex: conexão com banco) 
+/models → Entidades e regras de negócio 
+index.js → Arquivo principal do servidor
+.env → Variáveis de ambiente
+pizzaria.db → Banco de dados 
+SQLite seed.js → Popula o banco com dados iniciais
 
 
 
@@ -70,6 +118,5 @@ tela de login:
 
 
 
-server rodando:
-<img width="483" height="73" alt="Captura de tela 2026-03-17 133813" src="https://github.com/user-attachments/assets/eeaf1ffe-6235-4ef9-b57b-5ff8b6ebc381" />
+
 
