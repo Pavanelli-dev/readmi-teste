@@ -27,7 +27,7 @@ A aplicação permite:
 - cors
 - dotenv
 
-# grande parte dessas tecnologias são bibliotecas ou frameworks que ajudam nafuncionalidade e segurança do site
+grande parte dessas tecnologias são bibliotecas ou frameworks que ajudam nas funcionalidades e segurança do site
   
 
 ### Frontend
